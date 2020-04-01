@@ -51,7 +51,7 @@ def searchInLinkedIn(keyword,state):
                     value = driver.find_elements_by_class_name('search-result__result-link')[x].get_attribute('href')
                     links.append(value)
     if isFound == False:
-        print("Shteti te cilin keni kerkuar nuk gjendet ne liste !")
+        print("Shteti te cilin keni kerkuar nuk gjendet ne listeee !")
 
 
     for link in links:
